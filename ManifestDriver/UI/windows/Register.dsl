@@ -9,6 +9,17 @@
             <label id="label0"/>
             <input id="button1" value="下一步" class="ngbbuttonclass" type="button"/> 
         </navigatorbar>
-        <label id="label1"/> 
+        <label id="label1"/>
+        <div id="panel0">
+            <div id="panel1">
+                <input id="imagebutton0" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <input id="textbox0" maxlength="256" placeholder="请输入手机号" type="text"/> 
+            </div>
+            <label id="label2"/>
+            <div id="panel2">
+                <input id="imagebutton1" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <input id="textbox1" maxlength="256" placeholder="请输入验证码" type="text"/> 
+            </div> 
+        </div> 
     </div> 
 </window>
