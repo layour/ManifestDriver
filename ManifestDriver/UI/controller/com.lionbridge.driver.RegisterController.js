@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.driver.LoginController');
-com.lionbridge.driver.LoginController = function() {
-    com.lionbridge.driver.LoginController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.driver.RegisterController');
+com.lionbridge.driver.RegisterController = function() {
+    com.lionbridge.driver.RegisterController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$driver$LoginController$initialize(){
+function com$lionbridge$driver$RegisterController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,26 +32,12 @@ function com$lionbridge$driver$LoginController$initialize(){
     
 }
     
-function com$lionbridge$driver$LoginController$evaljs(js){
+function com$lionbridge$driver$RegisterController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$driver$LoginController$login(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.driver.Home",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
-}
-function com$lionbridge$driver$LoginController$openRegister(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.driver.Register",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
-}
-com.lionbridge.driver.LoginController.prototype = {
-    openRegister : com$lionbridge$driver$LoginController$openRegister,
-    login : com$lionbridge$driver$LoginController$login,
-    initialize : com$lionbridge$driver$LoginController$initialize,
-    evaljs : com$lionbridge$driver$LoginController$evaljs
+com.lionbridge.driver.RegisterController.prototype = {
+    initialize : com$lionbridge$driver$RegisterController$initialize,
+    evaljs : com$lionbridge$driver$RegisterController$evaljs
 };
-com.lionbridge.driver.LoginController.registerClass('com.lionbridge.driver.LoginController',UMP.UI.Mvc.Controller);
+com.lionbridge.driver.RegisterController.registerClass('com.lionbridge.driver.RegisterController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}
