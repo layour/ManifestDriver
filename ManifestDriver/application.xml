@@ -10,7 +10,7 @@
   </view>  
   <view id="Register" ref="Register.dsl" include="true"/>  
   <view id="Home" ref="Home.dsl" include="true"/>  
-  <view id="Examine" ref="Examine.dsl" include="true"/>
+  <view id="Examine" ref="Examine.dsl" include="true"/> 
 </application>
 <!--
 【屏幕显示方向】

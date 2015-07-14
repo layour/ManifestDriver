@@ -35,7 +35,14 @@ function com$lionbridge$driver$RegisterController$initialize(){
 function com$lionbridge$driver$RegisterController$evaljs(js){
     eval(js)
 }
+function com$lionbridge$driver$RegisterController$openExamine(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.driver.Examine",//目标页面（首字母大写）全名，
+		"isKeep" : "false"
+	});
+}
 com.lionbridge.driver.RegisterController.prototype = {
+    openExamine : com$lionbridge$driver$RegisterController$openExamine,
     initialize : com$lionbridge$driver$RegisterController$initialize,
     evaljs : com$lionbridge$driver$RegisterController$evaljs
 };

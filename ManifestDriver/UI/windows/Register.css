@@ -14,14 +14,14 @@ width:fill;
 valign:TOP;
 }
  #navigatorbar0 {
-padding-left:8;
 padding-right:8;
+padding-left:8;
 halign:LEFT;
 height:44.0;
 color:#323232;
-background:#ffffff;
-layout:hbox;
 font-size:17;
+layout:hbox;
+background:#ffffff;
 width:fill;
 font-family:default;
 valign:center;
@@ -55,8 +55,8 @@ width:wrap;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -64,19 +64,19 @@ valign:center;
  #panel0 {
 halign:center;
 height:89;
-background:#ffffff;
 layout:vbox;
+background:#ffffff;
 width:fill;
 margin-top:10;
 valign:TOP;
 }
  #panel1 {
-padding-left:10;
 padding-right:10;
+padding-left:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -95,8 +95,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }
@@ -105,20 +105,20 @@ margin-right:10;
 halign:center;
 height:1;
 color:#000000;
-background:#dbdbdb;
 font-size:14;
+background:#dbdbdb;
 width:fill;
 margin-left:10;
 font-family:default;
 valign:center;
 }
  #panel2 {
-padding-left:10;
 padding-right:10;
+padding-left:10;
 halign:LEFT;
 height:44;
-layout:hbox;
 background:#ffffff;
+layout:hbox;
 width:fill;
 valign:center;
 }
@@ -137,8 +137,8 @@ halign:LEFT;
 height:44;
 weight:1;
 color:#167ef8;
-background:#ffffff;
 font-size:14;
+background:#ffffff;
 width:0;
 font-family:default;
 }
