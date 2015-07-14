@@ -47,6 +47,7 @@ valign:center;
 halign:right;
 height:44;
 widthWrap:51.0;
+color:#e50011;
 font-size:16;
 width:wrap;
 }
@@ -140,4 +141,9 @@ font-size:14;
 background:#ffffff;
 width:0;
 font-family:default;
+}
+ #button2 {
+height:30;
+font-size:14;
+width:90;
 }

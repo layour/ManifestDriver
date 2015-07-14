@@ -18,7 +18,8 @@
             <label id="label2"/>
             <div id="panel2">
                 <input id="imagebutton1" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <input id="textbox1" maxlength="256" placeholder="请输入验证码" type="text"/> 
+                <input id="textbox1" maxlength="256" placeholder="请输入验证码" type="text"/>
+                <input id="button2" value="获取验证码" class="textbtnclass" type="button"/> 
             </div> 
         </div> 
     </div> 
