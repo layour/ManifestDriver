@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <application id="ManifestDriver" appname="司机端" versionCode="1" versionName="1" icon="app" theme="orange" jsengine="v2.0" package="com.lionbridge.driver" language="zh_cn" autoCheckUpdate="false" isLibrary="false"> 
   <permission id="internet"/>  
   <start view="Login"/>  
@@ -8,8 +9,10 @@
     <extend statusbarcolor="#f0f0f0"/> 
   </view>  
   <view id="Register" ref="Register.dsl" include="true"/>  
-  <view id="Home" ref="Home.dsl" include="true"/> 
-</application><!--
+  <view id="Home" ref="Home.dsl" include="true"/>  
+  <view id="Examine" ref="Examine.dsl" include="true"/>
+</application>
+<!--
 【屏幕显示方向】
   screenOrientation: 屏幕显示方向
     landscape: 横向
