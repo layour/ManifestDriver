@@ -5,7 +5,7 @@
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="注册">
-            <input id="button0" class="ngbbuttonclass" type="button"/>
+            <input id="button0" class="ngbbuttonclass" onclick="this.closeRegister()" type="button"/>
             <label id="label0"/>
             <input id="button1" value="下一步" class="ngbbuttonclass" onclick="this.openExamine()" type="button"/> 
         </navigatorbar>

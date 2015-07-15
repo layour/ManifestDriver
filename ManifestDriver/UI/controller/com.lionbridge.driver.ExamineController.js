@@ -35,7 +35,11 @@ function com$lionbridge$driver$ExamineController$initialize(){
 function com$lionbridge$driver$ExamineController$evaljs(js){
     eval(js)
 }
+function com$lionbridge$driver$ExamineController$closeExamine(sender, args){
+	$view.close();
+}
 com.lionbridge.driver.ExamineController.prototype = {
+    closeExamine : com$lionbridge$driver$ExamineController$closeExamine,
     initialize : com$lionbridge$driver$ExamineController$initialize,
     evaljs : com$lionbridge$driver$ExamineController$evaljs
 };

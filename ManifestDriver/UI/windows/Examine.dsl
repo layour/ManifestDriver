@@ -5,7 +5,7 @@
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
         <navigatorbar id="navigatorbar0" title="注册">
-            <input id="button0" class="ngbbuttonclass" type="button"/>
+            <input id="button0" class="ngbbuttonclass" onclick="this.closeExamine()" type="button"/>
             <label id="label0"/>
             <input id="button1" value="送审" class="ngbbuttonclass" type="button"/> 
         </navigatorbar>
@@ -37,12 +37,12 @@
                 <label id="label8">请同时拍摄以下三个证件</label>
                 <div id="panel7">
                     <input id="imagebutton4" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                    <input id="imagebutton5" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                    <input id="imagebutton5" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
                 </div>
                 <div id="panel8">
                     <input id="imagebutton6" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                    <input id="imagebutton7" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                </div>
+                    <input id="imagebutton7" imagebuttontype="icon" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                </div> 
             </div> 
         </div> 
     </div> 

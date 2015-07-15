@@ -61,7 +61,7 @@ valign:center;
 }
  #panel3 {
 halign:center;
-height:341;
+height:362;
 background:#ffffff;
 layout:vbox;
 width:fill;
@@ -235,9 +235,9 @@ color:#808080;
 heightWrap:16.0;
 font-size:12;
 width:wrap;
-margin-bottom:5;
+margin-bottom:10;
 font-family:default;
-margin-top:5;
+margin-top:10;
 valign:center;
 }
  #panel6 {

@@ -41,7 +41,11 @@ function com$lionbridge$driver$RegisterController$openExamine(sender, args){
 		"isKeep" : "false"
 	});
 }
+function com$lionbridge$driver$RegisterController$closeRegister(sender, args){
+	$view.close();
+}
 com.lionbridge.driver.RegisterController.prototype = {
+    closeRegister : com$lionbridge$driver$RegisterController$closeRegister,
     openExamine : com$lionbridge$driver$RegisterController$openExamine,
     initialize : com$lionbridge$driver$RegisterController$initialize,
     evaljs : com$lionbridge$driver$RegisterController$evaljs
