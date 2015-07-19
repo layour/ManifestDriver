@@ -10,7 +10,13 @@
   </view>  
   <view id="Register" ref="Register.dsl" include="true"/>  
   <view id="Home" ref="Home.dsl" include="true"/>  
-  <view id="Examine" ref="Examine.dsl" include="true"/> 
+  <view id="Examine" ref="Examine.dsl" include="true"/>  
+  <view id="About" ref="About.dsl" include="true"/>  
+  <view id="Repassword" ref="Repassword.dsl" include="true"/>  
+  <view id="OpinionDetail" ref="OpinionDetail.dsl" include="true"/>  
+  <view id="AboutDetail" ref="AboutDetail.dsl" include="true"/>  
+  <view id="TaskMy" ref="TaskMy.dsl" include="true"/>  
+  <view id="TaskFinish" ref="TaskFinish.dsl" include="true"/> 
 </application>
 <!--
 【屏幕显示方向】

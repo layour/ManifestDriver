@@ -1,0 +1,190 @@
+ #OpinionDetail {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#ededed;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+padding-left:8;
+padding-right:8;
+halign:LEFT;
+height:44.0;
+color:#323232;
+background:#ffffff;
+font-size:20;
+layout:hbox;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #button0 {
+padding-left:20;
+halign:left;
+height:44;
+width:44;
+background-image:icon_back.png;
+}
+ #label0 {
+halign:center;
+height:2;
+color:#000000;
+font-size:14;
+background:#ec9e34;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+halign:left;
+height:80.0;
+layout:vbox;
+width:fill;
+valign:CENTER;
+}
+ #panel1 {
+margin-right:50;
+halign:center;
+height:65.0;
+layout:vbox;
+width:fill;
+margin-left:10;
+margin-top:10;
+valign:TOP;
+background-image:bubble_left.png;
+}
+ #label2 {
+margin-right:15;
+halign:left;
+height:41.0;
+color:#000000;
+font-size:14;
+width:fill;
+margin-left:15;
+font-family:default;
+margin-top:5;
+valign:top;
+min-height:41;
+}
+ #label3 {
+margin-right:20;
+halign:right;
+height:wrap;
+color:#c0c0c0;
+heightWrap:14.0;
+font-size:10;
+width:fill;
+margin-left:20;
+margin-bottom:5;
+font-family:default;
+valign:center;
+}
+ #panel2 {
+halign:left;
+height:80.0;
+layout:vbox;
+width:fill;
+valign:CENTER;
+}
+ #panel3 {
+margin-right:10;
+halign:center;
+height:65.0;
+layout:vbox;
+width:fill;
+margin-left:50;
+margin-top:10;
+valign:TOP;
+background-image:bubble_right.png;
+}
+ #label4 {
+margin-right:15;
+halign:left;
+height:41.0;
+color:#000000;
+font-size:14;
+width:fill;
+margin-left:15;
+font-family:default;
+margin-top:5;
+valign:top;
+min-height:41;
+}
+ #label5 {
+margin-right:20;
+halign:right;
+height:wrap;
+color:#c0c0c0;
+heightWrap:14.0;
+font-size:10;
+width:fill;
+margin-left:20;
+margin-bottom:5;
+font-family:default;
+valign:center;
+}
+ #label1 {
+halign:center;
+height:1;
+color:#000000;
+background:#b8b8b8;
+font-size:14;
+width:fill;
+font-family:default;
+valign:center;
+}
+ #panel4 {
+halign:LEFT;
+height:44;
+background:#eaebed;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #textbox0 {
+padding-left:4;
+halign:LEFT;
+height:32;
+weight:1;
+border-radius:8;
+color:#167ef8;
+font-size:14;
+background:#ffffff;
+width:0;
+margin-left:10;
+font-family:default;
+}
+ #button1 {
+border-bottom-width:1;
+border-radius:5;
+width:48;
+font-pressed-color:#00a1ea;
+border-bottom-color:#ec5f1a;
+border-top-width:1;
+margin-right:10;
+border-left-color:#ec5f1a;
+border-top-color:#ec5f1a;
+height:32;
+border-right-color:#ec5f1a;
+background:#ec5f1a;
+font-size:14;
+margin-left:10;
+border-right-width:1;
+border-left-width:1;
+}

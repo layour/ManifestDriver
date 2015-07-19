@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.driver.HomeController');
-com.lionbridge.driver.HomeController = function() {
-    com.lionbridge.driver.HomeController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.driver.TaskFinishController');
+com.lionbridge.driver.TaskFinishController = function() {
+    com.lionbridge.driver.TaskFinishController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$driver$HomeController$initialize(){
+function com$lionbridge$driver$TaskFinishController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,23 +32,16 @@ function com$lionbridge$driver$HomeController$initialize(){
     
 }
     
-function com$lionbridge$driver$HomeController$evaljs(js){
+function com$lionbridge$driver$TaskFinishController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$driver$HomeController$openAddressSelect(sender, args){
-	com.lionbridge.driver.GlobalFunction.openAddressPicker();
+function com$lionbridge$driver$TaskFinishController$closeTaskFinish(sender, args){
+	$view.close();
 }
-function com$lionbridge$driver$HomeController$openAbout(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.driver.About",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
-	});
-}
-com.lionbridge.driver.HomeController.prototype = {
-    openAbout : com$lionbridge$driver$HomeController$openAbout,
-    openAddressSelect : com$lionbridge$driver$HomeController$openAddressSelect,
-    initialize : com$lionbridge$driver$HomeController$initialize,
-    evaljs : com$lionbridge$driver$HomeController$evaljs
+com.lionbridge.driver.TaskFinishController.prototype = {
+    closeTaskFinish : com$lionbridge$driver$TaskFinishController$closeTaskFinish,
+    initialize : com$lionbridge$driver$TaskFinishController$initialize,
+    evaljs : com$lionbridge$driver$TaskFinishController$evaljs
 };
-com.lionbridge.driver.HomeController.registerClass('com.lionbridge.driver.HomeController',UMP.UI.Mvc.Controller);
+com.lionbridge.driver.TaskFinishController.registerClass('com.lionbridge.driver.TaskFinishController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}

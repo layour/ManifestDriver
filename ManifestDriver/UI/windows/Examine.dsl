@@ -29,7 +29,7 @@
             <label id="label3"/>
             <div id="panel5">
                 <input id="imagebutton3" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <label id="label5" onclick="this.openAddressChange()">请输入准驾证号</label> 
+                <label id="label5">请输入准驾证号</label> 
             </div>
             <label id="label6"/>
             <label id="label7">请清晰地拍摄您以下证件，有助于快速通过审核</label>
