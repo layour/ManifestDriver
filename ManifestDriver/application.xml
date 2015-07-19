@@ -14,7 +14,8 @@
   <view id="OpinionDetail" ref="OpinionDetail.dsl" include="true"/>  
   <view id="AboutDetail" ref="AboutDetail.dsl" include="true"/>  
   <view id="TaskMy" ref="TaskMy.dsl" include="true"/>  
-  <view id="TaskFinish" ref="TaskFinish.dsl" include="true"/> 
+  <view id="TaskFinish" ref="TaskFinish.dsl" include="true"/>  
+  <view id="Exception" ref="Exception.dsl" include="true"/>
 </application>
 <!--
 【屏幕显示方向】
