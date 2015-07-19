@@ -44,7 +44,7 @@ function com$lionbridge$driver$LoginController$login(sender, args){
 function com$lionbridge$driver$LoginController$openRegister(sender, args){
 	$view.open({
 		"viewid" : "com.lionbridge.driver.Register",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
+		"isKeep" : "true"
 	});
 }
 com.lionbridge.driver.LoginController.prototype = {

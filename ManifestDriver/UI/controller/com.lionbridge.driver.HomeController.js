@@ -41,10 +41,24 @@ function com$lionbridge$driver$HomeController$openAddressSelect(sender, args){
 function com$lionbridge$driver$HomeController$openAbout(sender, args){
 	$view.open({
 		"viewid" : "com.lionbridge.driver.About",//目标页面（首字母大写）全名，
-		"isKeep" : "false"
+		"isKeep" : "true"
+	});
+}
+function com$lionbridge$driver$HomeController$openTaskFinish(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.driver.TaskFinish",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
+function com$lionbridge$driver$HomeController$openTaskMy(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.driver.TaskMy",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
 	});
 }
 com.lionbridge.driver.HomeController.prototype = {
+    openTaskMy : com$lionbridge$driver$HomeController$openTaskMy,
+    openTaskFinish : com$lionbridge$driver$HomeController$openTaskFinish,
     openAbout : com$lionbridge$driver$HomeController$openAbout,
     openAddressSelect : com$lionbridge$driver$HomeController$openAddressSelect,
     initialize : com$lionbridge$driver$HomeController$initialize,

@@ -5,9 +5,7 @@
   <start view="Login"/>  
   <!--view id="demo" ref="demo.dsl"><extend screenOrientation="landscape|portrait|unspecified"/></view-->  
   <!--view id="demo" ref="demo.dsl"><extend windowSoftInputMode="stateUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|stateVisible|stateAlwaysVisible|adjustUnspecified|adjustResize|adjustPan"/></view-->  
-  <view id="Login" ref="Login.dsl" include="true"> 
-    <extend statusbarcolor="#f0f0f0"/> 
-  </view>  
+  <view id="Login" ref="Login.dsl" include="true"/>  
   <view id="Register" ref="Register.dsl" include="true"/>  
   <view id="Home" ref="Home.dsl" include="true"/>  
   <view id="Examine" ref="Examine.dsl" include="true"/>  
