@@ -4,7 +4,7 @@
     <import ref="Exception.css" type="css"/>
     <link type="text/css" href="sys/theme.css"/>
     <div id="viewPage0">
-        <navigatorbar id="navigatorbar0" title="完成任务">
+        <navigatorbar id="navigatorbar0" title="异常上报">
             <input id="button0" class="ngbbuttonclass" onclick="this.closeException()" type="button"/> 
         </navigatorbar>
         <label id="label1"/> 

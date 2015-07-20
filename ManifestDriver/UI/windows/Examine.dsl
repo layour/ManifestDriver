@@ -20,7 +20,7 @@
                     <label id="label2"/>
                     <div id="panel4">
                         <input id="imagebutton2" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                        <input id="textbox1" maxlength="256" placeholder="请输入密码" type="text"/> 
+                        <input id="textbox1" maxlength="256" placeholder="请输入准驾证号" type="text"/> 
                     </div> 
                 </div>
                 <label id="label4"/>
@@ -29,7 +29,12 @@
             <label id="label3"/>
             <div id="panel5">
                 <input id="imagebutton3" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
-                <label id="label5">请输入准驾证号</label> 
+                <label id="label5">请输入6-16的数字或字母密码</label> 
+            </div>
+            <label id="label10"/>
+            <div id="panel9">
+                <input id="imagebutton8" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
+                <label id="label9">请再次输入6-16的数字或字母密码</label> 
             </div>
             <label id="label6"/>
             <label id="label7">请清晰地拍摄您以下证件，有助于快速通过审核</label>

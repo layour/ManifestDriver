@@ -10,6 +10,7 @@
             <input id="button1" value="下一步" class="ngbbuttonclass" onclick="this.openExamine()" type="button"/> 
         </navigatorbar>
         <label id="label1"/>
+        <label id="label5">手机号会作为您会员登录的唯一凭证</label>
         <div id="panel0">
             <div id="panel1">
                 <input id="imagebutton0" imagebuttontype="icon" value="图标名称" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/>
@@ -21,6 +22,7 @@
                 <input id="textbox1" maxlength="256" placeholder="请输入验证码" type="text"/>
                 <input id="button2" value="获取验证码" class="textbtnclass" type="button"/> 
             </div> 
-        </div> 
+        </div>
+        <label id="label3">请输入验证码，剩余时间60秒</label> 
     </div> 
 </window>
