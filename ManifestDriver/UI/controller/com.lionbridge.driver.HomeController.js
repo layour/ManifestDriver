@@ -38,6 +38,12 @@ function com$lionbridge$driver$HomeController$evaljs(js){
 function com$lionbridge$driver$HomeController$openAddressSelect(sender, args){
 	com.lionbridge.driver.GlobalFunction.openAddressPicker();
 }
+function pickerOk(){
+	var data = $ctx.getString("city");
+    data = $stringToJSON(data);
+    var result = data.content;
+	$id("button0").set("value", result);
+}
 function com$lionbridge$driver$HomeController$openAbout(sender, args){
 	$view.open({
 		"viewid" : "com.lionbridge.driver.About",//目标页面（首字母大写）全名，

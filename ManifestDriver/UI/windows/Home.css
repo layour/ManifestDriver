@@ -46,15 +46,12 @@ width:0;
 font-family:default;
 valign:center;
 }
- #imagebutton1 {
-width:44;
-icon-width:25;
-font-pressed-color:#e50011;
-icon-height:25;
+ #button0 {
 height:44;
-font-size:10;
-icon-background-image:head_location.png;
-icon-text-spacing:3;
+widthWrap:51.0;
+color:#e50011;
+font-size:16;
+width:wrap;
 }
  #label1 {
 halign:center;
