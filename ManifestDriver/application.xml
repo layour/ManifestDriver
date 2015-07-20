@@ -16,7 +16,9 @@
   <view id="TaskMy" ref="TaskMy.dsl" include="true"/>  
   <view id="TaskFinish" ref="TaskFinish.dsl" include="true"/>  
   <view id="Exception" ref="Exception.dsl" include="true"/>  
-  <view id="CallService" ref="CallService.dlg" include="true"/> 
+  <view id="CallService" ref="CallService.dlg" include="true"/>  
+  <view id="RetrievePassword" ref="RetrievePassword.dsl" include="true"/>  
+  <view id="NewPassword" ref="NewPassword.dsl" include="true"/>
 </application>
 <!--
 【屏幕显示方向】

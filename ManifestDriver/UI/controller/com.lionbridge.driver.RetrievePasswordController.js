@@ -1,11 +1,11 @@
 //JavaScript Framework 2.0 Code
 try{
-Type.registerNamespace('com.lionbridge.driver.LoginController');
-com.lionbridge.driver.LoginController = function() {
-    com.lionbridge.driver.LoginController.initializeBase(this);
+Type.registerNamespace('com.lionbridge.driver.RetrievePasswordController');
+com.lionbridge.driver.RetrievePasswordController = function() {
+    com.lionbridge.driver.RetrievePasswordController.initializeBase(this);
     this.initialize();
 }
-function com$lionbridge$driver$LoginController$initialize(){
+function com$lionbridge$driver$RetrievePasswordController$initialize(){
     //you can programing by $ctx API
     //get the context data through $ctx.get()
     //set the context data through $ctx.push(json)
@@ -32,33 +32,30 @@ function com$lionbridge$driver$LoginController$initialize(){
     
 }
     
-function com$lionbridge$driver$LoginController$evaljs(js){
+function com$lionbridge$driver$RetrievePasswordController$evaljs(js){
     eval(js)
 }
-function com$lionbridge$driver$LoginController$login(sender, args){
+function com$lionbridge$driver$RetrievePasswordController$openExamine(sender, args){
 	$view.open({
-		"viewid" : "com.lionbridge.driver.Home",//目标页面（首字母大写）全名，
+		"viewid" : "com.lionbridge.driver.Examine",//目标页面（首字母大写）全名，
 		"isKeep" : "false"
 	});
 }
-function com$lionbridge$driver$LoginController$openRegister(sender, args){
+function com$lionbridge$driver$RetrievePasswordController$closeRetrievePassword(sender, args){
+	$view.close();
+}
+function com$lionbridge$driver$RetrievePasswordController$openNewPassword(sender, args){
 	$view.open({
-		"viewid" : "com.lionbridge.driver.Register",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
+		"viewid" : "com.lionbridge.driver.NewPassword",//目标页面（首字母大写）全名，
+		"isKeep" : "false"
 	});
 }
-function com$lionbridge$driver$LoginController$openRetrievePassword(sender, args){
-	$view.open({
-		"viewid" : "com.lionbridge.driver.RetrievePassword",//目标页面（首字母大写）全名，
-		"isKeep" : "true"
-	});
-}
-com.lionbridge.driver.LoginController.prototype = {
-    openRetrievePassword : com$lionbridge$driver$LoginController$openRetrievePassword,
-    openRegister : com$lionbridge$driver$LoginController$openRegister,
-    login : com$lionbridge$driver$LoginController$login,
-    initialize : com$lionbridge$driver$LoginController$initialize,
-    evaljs : com$lionbridge$driver$LoginController$evaljs
+com.lionbridge.driver.RetrievePasswordController.prototype = {
+    openNewPassword : com$lionbridge$driver$RetrievePasswordController$openNewPassword,
+    closeRetrievePassword : com$lionbridge$driver$RetrievePasswordController$closeRetrievePassword,
+    openExamine : com$lionbridge$driver$RetrievePasswordController$openExamine,
+    initialize : com$lionbridge$driver$RetrievePasswordController$initialize,
+    evaljs : com$lionbridge$driver$RetrievePasswordController$evaljs
 };
-com.lionbridge.driver.LoginController.registerClass('com.lionbridge.driver.LoginController',UMP.UI.Mvc.Controller);
+com.lionbridge.driver.RetrievePasswordController.registerClass('com.lionbridge.driver.RetrievePasswordController',UMP.UI.Mvc.Controller);
 }catch(e){$e(e);}
