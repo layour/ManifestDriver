@@ -14,14 +14,14 @@ width:fill;
 valign:TOP;
 }
  #navigatorbar0 {
-padding-left:8;
 padding-right:8;
+padding-left:8;
 halign:LEFT;
 height:44.0;
 color:#323232;
-background:#ffffff;
-layout:hbox;
 font-size:20;
+layout:hbox;
+background:#ffffff;
 width:fill;
 font-family:default;
 valign:center;
@@ -60,8 +60,8 @@ icon-text-spacing:3;
 halign:center;
 height:2;
 color:#000000;
-background:#ec9e34;
 font-size:14;
+background:#ec9e34;
 width:fill;
 font-family:default;
 valign:center;
@@ -84,7 +84,8 @@ height:fill;
 weight:1;
 layout:hbox;
 width:0;
-margin-left:20;
+margin-left:10;
+margin-top:10;
 valign:center;
 }
  #imagebutton2 {
@@ -98,12 +99,13 @@ icon-background-image:head_truck.png;
 icon-text-spacing:3;
 }
  #panel2 {
-margin-right:20;
+margin-right:10;
 halign:CENTER;
 height:fill;
 weight:1;
 layout:hbox;
 width:0;
+margin-top:10;
 valign:center;
 }
  #imagebutton3 {
@@ -130,7 +132,8 @@ height:fill;
 weight:1;
 layout:hbox;
 width:0;
-margin-left:20;
+margin-left:10;
+margin-bottom:10;
 valign:center;
 }
  #imagebutton4 {
@@ -144,12 +147,13 @@ icon-background-image:head_query.png;
 icon-text-spacing:3;
 }
  #panel5 {
-margin-right:20;
+margin-right:10;
 halign:CENTER;
 height:fill;
 weight:1;
 layout:hbox;
 width:0;
+margin-bottom:10;
 valign:center;
 }
  #imagebutton5 {

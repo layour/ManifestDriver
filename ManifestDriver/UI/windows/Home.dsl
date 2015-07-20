@@ -22,7 +22,7 @@
                 <input id="imagebutton2" value="我的任务" istogglebutton="false" class="imagebuttonclass" onclick="this.openTaskMy()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel2">
-                <input id="imagebutton3" value="异常上报" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                <input id="imagebutton3" value="异常上报" istogglebutton="false" class="imagebuttonclass" onclick="this.openException()" type="imagebutton" checked="false"/> 
             </div> 
         </div>
         <div id="panel3">
@@ -30,7 +30,7 @@
                 <input id="imagebutton4" value="完成任务" istogglebutton="false" class="imagebuttonclass" onclick="this.openTaskFinish()" type="imagebutton" checked="false"/> 
             </div>
             <div id="panel5">
-                <input id="imagebutton5" value="一键客服" istogglebutton="false" class="imagebuttonclass" type="imagebutton" checked="false"/> 
+                <input id="imagebutton5" value="一键客服" istogglebutton="false" class="imagebuttonclass" onclick="this.openCallService()" type="imagebutton" checked="false"/> 
             </div> 
         </div> 
     </div> 

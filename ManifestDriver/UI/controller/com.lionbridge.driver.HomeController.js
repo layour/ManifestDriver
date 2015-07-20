@@ -56,7 +56,25 @@ function com$lionbridge$driver$HomeController$openTaskMy(sender, args){
 		"isKeep" : "true"
 	});
 }
+function com$lionbridge$driver$HomeController$openException(sender, args){
+	$view.open({
+		"viewid" : "com.lionbridge.driver.Exception",//目标页面（首字母大写）全名，
+		"isKeep" : "true"
+	});
+}
+function com$lionbridge$driver$HomeController$openCallService(sender, args){
+	$window.showModalDialog({
+		"dialogId" : "com.lionbridge.driver.CallService",//Dialog的唯一标识（包名+ID），ID要求首字母大写
+		"features" : {
+			"dialogWidth" : "250",
+			"dialogHeight" : "150"
+		},
+		"animation-type" : "bottom"//弹出Dialog的起始位置，取值范围为top|bottom|left|right|center
+	})
+}
 com.lionbridge.driver.HomeController.prototype = {
+    openCallService : com$lionbridge$driver$HomeController$openCallService,
+    openException : com$lionbridge$driver$HomeController$openException,
     openTaskMy : com$lionbridge$driver$HomeController$openTaskMy,
     openTaskFinish : com$lionbridge$driver$HomeController$openTaskFinish,
     openAbout : com$lionbridge$driver$HomeController$openAbout,
